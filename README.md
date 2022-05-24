@@ -1,5 +1,5 @@
 # sme-bi-case-study-application
-For this stage of the application, we will ask you to create a screencast and two corresponding virtual machine exercises for a specific portion of your case study outline. 
+For this stage of the application, we will ask you to create a screencast and one corresponding virtual machine exercise for a specific portion of your case study outline. 
 
 ### Getting Started 
 
