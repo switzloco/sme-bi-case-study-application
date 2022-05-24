@@ -40,3 +40,15 @@ You can look at the same [exercise]([url](https://campus.datacamp.com/courses/ca
 #### End goal:
 
 *Add an image of the final visualization here.*
+
+## Finalized Wrokbook
+
+#### Files
+You can upload your final workbook in the exercises folder as `ex-final-sol.twbx` or `ex-final-sol.pbix`.
+
+#### Explanation & Description
+Which answers will the learner be able to solve once building this? How does it fit in the bigger picture?
+
+#### End goal:
+
+*Add an image of the final visualization here.*
