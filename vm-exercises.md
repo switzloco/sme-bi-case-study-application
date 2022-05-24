@@ -41,7 +41,7 @@ You can look at the same [exercise]([url](https://campus.datacamp.com/courses/ca
 
 *Add an image of the final visualization here.*
 
-## Finalized Wrokbook
+## Finalized Workbook
 
 #### Files
 You can upload your final workbook in the exercises folder as `ex-final-sol.twbx` or `ex-final-sol.pbix`.
