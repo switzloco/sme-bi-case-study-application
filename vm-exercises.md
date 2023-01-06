@@ -18,28 +18,34 @@
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+*You will learn how to calculate Extended Cost and Full Cost from quotes data.*
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
-You can look at the same [exercise]([url](https://campus.datacamp.com/courses/case-study-analyzing-customer-churn-in-tableau/exploratory-analysis-1?ex=4)) from the Case Study: Analyzing Customer Churn in Tableau on how to write a good context.
+When making a Supply Chain decision, it is important to understand the full cost of any option. Full cost consists of two components: Extended cost (the total cost of products purchased) and non-recurring expenses (one-time expenses). 
+
+You will first create an Extended Cost calculated column, then use that to create a Full Cost calculated column in the Quotes table. 
+While it is possible to create a Full Cost column without adding the Extended Cost step, displaying the breakdown between Extended Cost and Full Cost is useful for informing future Supply Chain work such as price negotiations. 
+
 
 #### Steps to be executed by the student (max 6)
 
 *Each bulleted instruction is a complete sentence that describes a specific task.*
 
-- Step 1
-- Step 2
-- Step 3
-- ...
+- Step 1: Create a simple table visual that includes columns for Supplier, Part, Volume, Quoted Price and Non-recurring-expenses. Make sure that the table does not summarize any of the variables, because you will want to see the results for each line.
+- Step 2: Create a calculated column for Extended Cost. Extended cost is the quoted cost multiplied by the number of units quoted.  
+Add the newly created column to your table visual.
+- Step 3: Create a calculated column for Full Cost. Full cost is the total cost required to purchase the parts from the supplier - Extended Cost plus non-recurring expenses. 
+Add the newly created column to your table visual.
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+The New Product Launch team reports that we need 10,000 units of part P0914 (part name Chattlecrat). Which supplier has the lowest Full Cost, and what is it?
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+*We could definitely ask the student for a more beautiful, fun visualization but I kept it simple for this first round. Additionally, the answer to the question is not included in the screenshot but would be available to the student by scrolling or filtering the table.* 
+
+![image](https://user-images.githubusercontent.com/6133961/211061244-3e0b68b9-5198-4f63-be19-63d27047d73d.png)
 
 ## Finalized Workbook
 
@@ -47,7 +53,7 @@ You can look at the same [exercise]([url](https://campus.datacamp.com/courses/ca
 You can upload your final workbook in the exercises folder as `ex-final-sol.twbx` or `ex-final-sol.pbix`.
 
 #### Explanation & Description
-Which answers will the learner be able to solve once building this? How does it fit in the bigger picture?
+At the end of this lesson, the student will be able to identify the supplier for any given part-volume combination by using the full cost and extended cost. In a real supply chain situation, this maybe the first round that identifies which supplier to negotiate with or collaborate with on further design changes. In the context of Make vs. Buy analysis, the lowest cost external supplier option is typically measured against the best "Make" option. In the coming lessons, the student will learn how to calculate Extended Cost and Full Cost for internal options which are little complicated because the Full Cost of the Make option is dependent on existing resource capacity. 
 
 #### End goal:
 
