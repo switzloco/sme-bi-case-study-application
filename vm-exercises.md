@@ -59,4 +59,4 @@ At the end of this lesson, the student will be able to identify the supplier for
 
 #### End goal:
 
-![image](https://user-images.githubusercontent.com/6133961/211120113-cab46d20-5bf2-47d4-86d0-abdae80f3b9a.png)
+![image](https://user-images.githubusercontent.com/6133961/211120332-8cff55af-536d-4469-849d-3751380bb8a9.png)
