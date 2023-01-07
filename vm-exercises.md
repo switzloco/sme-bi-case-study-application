@@ -49,6 +49,8 @@ The New Product Launch team reports that we need 10,000 units of part P0914 (par
 
 ## Finalized Workbook
 
+I have created a workbook that showcases the volume parameter and how it affects the Supplier Selection decisions. In my course outline, the parameter is actually introduced _after_ calculating the Make option, but I thought this would be a better demonstration of the final output for the learner. 
+
 #### Files
 You can upload your final workbook in the exercises folder as `ex-final-sol.twbx` or `ex-final-sol.pbix`.
 
@@ -57,4 +59,4 @@ At the end of this lesson, the student will be able to identify the supplier for
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+![image](https://user-images.githubusercontent.com/6133961/211120113-cab46d20-5bf2-47d4-86d0-abdae80f3b9a.png)
